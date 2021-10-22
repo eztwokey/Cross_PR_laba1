@@ -1,7 +1,2 @@
-|               Title               |    Genre    |
-|-----------------------------------|-------------|
-| Enter the Anime                   | Documentary |
-| Searching for Sheela              | Documentary |
-| After the Raid                    | Documentary |
-| Hello Privilege. It's Me, Chelsea | Documentary |
-| After Maria                       | Documentary |
+select title, genre from netflix where genre = 'Documentary'
+limit 5;
